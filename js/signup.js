@@ -158,9 +158,10 @@ $(document).ready(function(){
                 title:"Registration Successful",
                 text:"Your account has been created successfully",
                 confirmButtonText:"OK"
-            }).then(function(){
+            })
+            setTimeout(()=>{
                 window.location.href="login1.html";
-            });
+            })
 
         }catch(error){
             console.error("Signup Error:",error);

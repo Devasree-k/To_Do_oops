@@ -71,6 +71,60 @@
       ],
       "address": "Thennampalayam",
       "createdAt": "2026-08-25T08:52:43.006Z"
+    },
+    {
+      "id": "wGgmUFOSk6s",
+      "name": "Vikhashini",
+      "email": "vikhashini@gmail.com",
+      "profileImage": "C:\\fakepath\\explore_bg1.png",
+      "password": "$2a$10$/XWHdWGYkge7LheLfSiBmOpAK6eHQC1z2x1PutZHYcnym/v012ILm",
+      "age": 24,
+      "phone": "6778908765",
+      "dob": "2002-07-20",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "address": "Vijayamangalam, Erode",
+      "createdAt": "2026-08-25T09:49:55.736Z"
+    },
+    {
+      "id": "42md3tUZgpw",
+      "name": "Karthika",
+      "email": "karthika@gmail.com",
+      "profileImage": "C:\\fakepath\\industrial-bg1.png",
+      "password": "$2a$10$tteXyWqSm5DbiF8Ume0iMONEBk3FNQy0mvzMe2zZjU0gi/lek4hym",
+      "age": 21,
+      "phone": "6345678129",
+      "dob": "2005-01-30",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "address": "Sirumugai, Mettupalayam",
+      "createdAt": "2026-08-25T10:20:48.767Z"
+    },
+    {
+      "id": "w7-5YNS4WCo",
+      "name": "Aandal",
+      "email": "aandal@gmail.com",
+      "profileImage": "C:\\fakepath\\explore_bg1.png",
+      "password": "$2a$10$mgRl0TVpY59FcxIe.U7/h.vr5qr8kWsSqUfXBSpXsFpop37DXbU.O",
+      "age": 21,
+      "phone": "8990765543",
+      "dob": "2005-04-30",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "HTML",
+        "JavaScript"
+      ],
+      "address": "Srivilliputhur",
+      "createdAt": "2026-08-25T10:23:19.086Z"
     }
   ],
   "tasks": [
