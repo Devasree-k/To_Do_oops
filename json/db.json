@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "sxP6lfB9MhQ",
+      "name": "Devasree",
+      "email": "devasree@gmail.com",
+      "profileImage": "C:\\fakepath\\index-bg2.jpg",
+      "password": "$2a$10$FCnp5mKAKFYrIp4yyxzs9.iGDvKdCjC4YGJ876WB6FqUItcQNuLi2",
+      "age": 35,
+      "phone": "8870179859",
+      "dob": "1991-01-18",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "CSS"
+      ],
+      "address": "1/165-13, visaka nagar, coimbatore",
+      "createdAt": "2026-08-25T06:56:41.792Z"
+    },
+    {
+      "id": "HuW1JA_vojo",
+      "name": "Mouleesh",
+      "email": "mouleesh@gmail.com",
+      "profileImage": "C:\\fakepath\\about-img1.jpg",
+      "password": "$2a$10$0VcjcwoAIJWMUbFA0waqWegzi8CCMsV/PPDoiF1M.i6qqOjZrztw2",
+      "age": 16,
+      "phone": "8790543267",
+      "dob": "2010-08-21",
+      "country": "India",
+      "gender": "Male",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "address": "1/165-13, visaka nagar, coimbatore",
+      "createdAt": "2026-08-25T07:03:03.878Z"
+    },
+    {
+      "id": "JtvgmmBmZBI",
+      "name": "Haripriya K",
+      "email": "haripriya@gmail.com",
+      "profileImage": "C:\\fakepath\\industrial-bg1.png",
+      "password": "$2a$10$juWcMpie.86hdoMixzOZGeTB0KojvRAsDEsuezfDcMQcx7cp44OSi",
+      "age": 21,
+      "phone": "8978990233",
+      "dob": "2005-08-25",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "address": "Thennampalayam",
+      "createdAt": "2026-08-25T08:50:46.898Z"
+    },
+    {
+      "id": "WVvRiiUE8ks",
+      "name": "Harini",
+      "email": "harini@gmail.com",
+      "profileImage": "C:\\fakepath\\about-img1.jpg",
+      "password": "$2a$10$47aZ2m0M/jb9FRaPdSBKUO2YclOZbsXKlsISNPJNk.gsLvzXmxBj6",
+      "age": 26,
+      "phone": "7654313432",
+      "dob": "2000-08-05",
+      "country": "India",
+      "gender": "Female",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "address": "Thennampalayam",
+      "createdAt": "2026-08-25T08:52:43.006Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "Vm4MbhOJeMk",
+      "userId": "HuW1JA_vojo",
+      "title": "Task 1",
+      "description": "Task 1 description added",
+      "time": "12:50",
+      "date": "2026-08-29",
+      "priority": "Medium",
+      "completed": false,
+      "deleted": false,
+      "createdAt": "25/8/2026",
+      "updatedAt": "25/8/2026"
+    },
+    {
+      "id": "vkPHymUyW30",
+      "userId": "HuW1JA_vojo",
+      "title": "Sample task",
+      "description": "Sample task description",
+      "time": "12:47",
+      "date": "2026-08-25",
+      "priority": "Low",
+      "completed": true,
+      "deleted": false,
+      "createdAt": "25/8/2026",
+      "updatedAt": ""
+    },
+    {
+      "id": "3RlWLdnEXNA",
+      "userId": "HuW1JA_vojo",
+      "title": "Sample delete",
+      "description": "Sample Delete description",
+      "time": "15:30",
+      "date": "2026-08-25",
+      "priority": "Medium",
+      "completed": false,
+      "deleted": true,
+      "createdAt": "25/8/2026",
+      "updatedAt": ""
+    },
+    {
+      "id": "9gNiwOcx7BM",
+      "userId": "sxP6lfB9MhQ",
+      "title": "Task 1",
+      "description": "Task 1 sample description",
+      "time": "17:53",
+      "date": "2026-08-25",
+      "priority": "Low",
+      "completed": false,
+      "deleted": false,
+      "createdAt": "25/8/2026",
+      "updatedAt": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: #314e6b;
+    /* background: linear-gradient(to right, rgb(227, 90, 227), rgb(156, 84, 245)); */
+}
+
+.bg-color{
+    background : linear-gradient(to bottom, rgb(161, 219, 237) ,rgb(68, 140, 234));
+      font-family: "Sofia", sans-serif;
+}
+
+.todo-img{
+    animation: bounce 3s ease infinite;
+}
+
+@keyframes bounce {
+    0%,100%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.custom_bg{
+    /* background:  rgb(232, 221, 235); */
+        background: linear-gradient(to right, rgb(238, 228, 244), rgb(218, 218, 244))
+}
+
+
+.feature-card {
+    
+    background: linear-gradient(to right, rgb(227, 90, 227), rgb(95, 185, 249));
+    border: none;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* DARK THEME */
+
+body.dark-theme{
+    background:#0f172a;
+    color:white;
+}
+
+body.dark-theme .custom_bg{
+    background:#1e293b;
+}
+
+body.dark-theme .hero{
+    color:white;
+}
+
+body.dark-theme .text-muted{
+    color:#cbd5e1 !important;
+}
+
+body.dark-theme .navbar{
+    background:#020617 !important;
+}
+
+body.dark-theme .feature-card{
+    background:linear-gradient(
+        to right,
+        #4338ca,
+        #1d4ed8
+    );
+    color:white;
+}
+
+body.dark-theme footer{
+    background:#020617 !important;
+}
+
+body.dark-theme .btn-outline-dark{
+    color:white;
+    border-color:white;
+}
+
+body.dark-theme .btn-outline-dark:hover{
+    background:white;
+    color:black;
+}
+

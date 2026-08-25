@@ -1,0 +1,72 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, rgb(238, 228, 244), rgb(218, 218, 244));
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.submit-btn{
+    background-color: #997dbd;
+    border: #3f2e55;
+}
+
+.text-color{
+    color: purple;
+}
+
+
+/* Theme */
+
+body.dark-theme{
+    background:#0f172a;
+}
+
+body.dark-theme .login-box{
+    background:#1e293b;
+    color:white;
+}
+
+body.dark-theme .form-control{
+    background:#334155;
+    color:white;
+    border-color:#475569;
+}
+
+body.dark-theme .form-control::placeholder{
+    color:#cbd5e1;
+}
+
+body.dark-theme .text-muted{
+    color:#cbd5e1 !important;
+}
+
+body.dark-theme .btn-outline-dark{
+    color:white;
+    border-color:white;
+}
+
+body.dark-theme .btn-outline-dark:hover{
+    background:white;
+    color:black;
+}
+
+body.dark-theme .btn-outline-secondary{
+    color:white;
+    border-color:white;
+}
+
+body.dark-theme .btn-outline-secondary:hover{
+    background:white;
+    color:black;
+}
+
+body.dark-theme .form-floating label{
+    color:#cbd5e1;
+}

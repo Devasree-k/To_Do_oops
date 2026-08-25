@@ -1,0 +1,199 @@
+body{
+    background: linear-gradient(
+        to right,
+        #eef2ff,
+        #f8f5ff
+    );
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:linear-gradient(
+        90deg,
+        #4f46e5,
+        #7c3aed
+    ) !important;
+    box-shadow:0 4px 20px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+    letter-spacing:1px;
+}
+
+/* WELCOME CARD */
+
+.welcome-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+/* SECTION BUTTONS */
+
+.sectionFilterBtn{
+    border:none;
+    border-radius:50px;
+    padding:10px 22px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.sectionFilterBtn:hover{
+    transform:translateY(-3px);
+}
+
+
+/* ADD TASK CARD */
+
+#taskBox{
+    border:none;
+    border-radius:25px;
+    background:rgba(255,255,255,.8);
+    backdrop-filter:blur(12px);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.form-control,
+.form-select{
+    border-radius:12px;
+}
+
+/* SECTION TITLES */
+
+.section-title{
+    margin-top:20px;
+    margin-bottom:12px;
+    font-weight:700;
+    font-size: 20px;
+}
+
+/* TASK CARD */
+
+.card{
+    border:none;
+    border-radius:16px;
+    transition:.3s;
+    overflow: hidden;
+}
+
+.card-body{
+    padding: 16px;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+}
+
+/* UPDATE BOX */
+
+.update-box{
+    display:none;
+    background:#f8fafc;
+    padding:15px;
+    border-radius:15px;
+}
+
+/* ADD TASK BUTTON */
+
+#showTaskBox{
+    border:none;
+    border-radius:50px;
+    padding:12px 24px;
+    font-weight:600;
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #7c3aed
+    );
+}
+
+/* TASK LIST HEADINGS */
+
+.text-primary{
+    color:#4f46e5 !important;
+}
+
+.text-success{
+    color:#16a34a !important;
+}
+
+.text-warning{
+    color:#f59e0b !important;
+}
+
+.text-secondary{
+    color:#64748b !important;
+}
+
+
+/* DARK THEME */
+
+body.dark-theme{
+    background:#0f172a;
+    color:#f8fafc;
+}
+
+body.dark-theme .welcome-card,
+body.dark-theme #taskBox,
+body.dark-theme .card{
+    background:#1e293b;
+    color:#f8fafc;
+}
+
+body.dark-theme .update-box{
+    background:#334155;
+}
+
+body.dark-theme .form-control,
+body.dark-theme .form-select{
+    background:#334155;
+    color:white;
+    border:1px solid #475569;
+}
+
+body.dark-theme .form-control::placeholder{
+    color:#cbd5e1;
+}
+
+body.dark-theme .section-title{
+    color:white !important;
+}
+
+body.dark-theme .text-muted,
+body.dark-theme .text-secondary{
+    color:#cbd5e1 !important;
+}
+
+body.dark-theme .navbar{
+    background:linear-gradient(
+        90deg,
+        #0f172a,
+        #1e293b
+    ) !important;
+}
+
+/* theme offcanvas */
+body.dark-theme .offcanvas{
+background:#1e293b;
+color:white;
+}
+
+body.dark-theme .table{
+    color:white;
+}
+
+body.dark-theme .table th,
+body.dark-theme .table td{
+    color:white;
+}
+
+body.dark-theme .btn-close{
+    filter:invert(1);
+}

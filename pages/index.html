@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do web </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="../styles/index.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+        <div class="container">
+            <a class="navbar-brand fw-bold font-effect-outline fs-3" href="#">Task Planner📝</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+
+                    <li class="nav-item ms-2">
+                        <button class="btn btn-light btn-sm" id="themeToggle">
+                            <i class="bi bi-moon-fill"></i> Dark Mode
+                        </button>
+                    </li>
+
+                    <li class="nav-item ms-2">
+                        <a href="login1.html" class="btn btn-light btn-sm" >Login</a>
+                    </li>
+
+                    <li class="nav-item ms-2">
+                        <a href="signup.html" class="btn btn-primary btn-sm">Sign Up</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+     <section class="hero custom_bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="fw-bold display-5">Manage Your Tasks Easily</h1>
+                    <p class="text-muted my-4">
+                        <!-- Simple and smart To-Do application to organize your daily activities. -->
+                        A simple yet smart To‑Do application designed to help you organize your daily activities with ease.
+                        Quickly add, edit, and remove tasks as your day unfolds.
+                        Stay productive by keeping all your important to‑dos in one place, accessible anytime from your browser.
+                        Whether it’s work, study, or personal errands, our <b>Task Planner</b> keeps you focused and in control of your schedule.
+                    </p>
+                    <a href="signup.html" class="btn btn-primary me-2">Get Started</a>
+                    <a href="login1.html" class="btn btn-outline-dark">Login</a>
+                </div>
+
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="/assets/index-img.jpg" class="img-fluid rounded-5 todo-img" width="350" alt="todo image" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+     <section id="features" class="py-5 custom_bg">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Features</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card shadow-sm text-center p-4 h-100">
+                        <i class="bi bi-plus-circle-fill text-primary fs-1"></i>
+                        <h5 class="mt-3">Add Tasks</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card shadow-sm text-center p-4 h-100">
+                        <i class="bi bi-pencil-square text-success fs-1"></i>
+                        <h5 class="mt-3">Edit Tasks</h5>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card shadow-sm text-center p-4 h-100">
+                        <i class="bi bi-trash-fill text-danger fs-1"></i>
+                        <h5 class="mt-3">Delete</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2026 TO-DO</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/configure.js"></script>
+    <script src="../js/common.js"></script>
+    <script>initTheme();</script>
+    
+
+</body>
+</html>
+

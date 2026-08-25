@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="../styles/signup.css">
+
+</head>
+
+<body>
+
+  <div class="container pt-3">
+
+  <div class="d-flex justify-content-between">
+
+    <!-- Back Button -->
+    <button
+      class="btn btn-outline-secondary" onclick="history.back()">
+      <i class="bi bi-arrow-left"></i>
+      Back
+    </button>
+
+    <!-- Theme Toggle -->
+    <button
+      class="btn btn-outline-dark" id="themeToggle">
+      <i class="bi bi-moon-fill"></i>
+      Dark Mode
+    </button>
+
+  </div>
+
+</div>
+
+<div class="container custom_container py-5">
+  <div class="row justify-content-center">
+
+    <div class="col-lg-10">
+
+      <div class="card shadow signup-card border-0">
+
+        <div class="card-body custom_bg p-4 rounded-4">
+
+          <h2 class="text-center mb-4">
+            Create Account
+          </h2>
+
+          <form id="signupForm">
+
+            <!-- Name -->
+
+            <div class="mb-3">
+
+              <div class="input-group">
+
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+
+                <input type="text" id="name" class="form-control" placeholder="Full Name">
+
+              </div>
+
+              <div class="invalid-feedback">
+                Enter valid name (minimum 3 letters)
+              </div>
+
+            </div>
+
+            <!-- Email -->
+
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input type="email" id="email" class="form-control" placeholder="Email Address">
+              </div>
+
+              <div class="invalid-feedback">
+                Enter valid email address
+              </div>
+
+            </div>
+
+            <!-- Password Row -->
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3">
+
+                <div class="input-group">
+
+                  <span class="input-group-text">
+                    <i class="bi bi-lock-fill"></i>
+                  </span>
+
+                  <input type="password" id="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="invalid-feedback">
+                  Password must contain uppercase, lowercase, number and special character
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-shield-lock-fill"></i>
+                  </span>
+                  <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password">
+                </div>
+
+                <div class="invalid-feedback">
+                  Passwords do not match
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Phone & DOB -->
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-phone-fill"></i>
+                  </span>
+                  <input type="number" id="phone" class="form-control" placeholder="Phone Number">
+                </div>
+
+                <div class="invalid-feedback">
+                  Enter valid 10 digit phone number
+                </div>
+
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-calendar-date-fill"></i>
+                  </span>
+                  <input type="date" id="dob" class="form-control">
+                </div>
+
+                <div class="invalid-feedback">
+                  Age must be 16 years or above.
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Country -->
+
+            <div class="mb-3">
+
+              <div class="input-group">
+
+                <span class="input-group-text">
+                  <i class="bi bi-globe"></i>
+                </span>
+
+                <select id="country" class="form-select">
+
+                  <option value="">
+                    Select Country
+                  </option>
+
+                  <option value="India">
+                    India
+                  </option>
+
+                  <option value="USA">
+                    USA
+                  </option>
+
+                  <option value="Canada">
+                    Canada
+                  </option>
+
+                  <option value="Russia">
+                    Russia
+                  </option>
+
+                  <option value="Australia">
+                    Australia
+                  </option>
+
+                </select>
+
+              </div>
+
+              <div class="invalid-feedback">
+                Please select country
+              </div>
+
+            </div>
+
+            <!-- Gender -->
+
+            <div class="mb-3">
+
+              <label class="section-title">
+                Gender
+              </label>
+
+              <div class="d-flex gap-4 flex-wrap">
+
+                <div class="form-check">
+
+                  <input class="form-check-input" type="radio" name="gender" value="Male" id="male">
+
+                  <label class="form-check-label" for="male">
+                    Male
+                  </label>
+
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gender" value="Female" id="female">
+                  <label class="form-check-label" for="female">
+                    Female
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gender" value="Other" id="other">
+                  <label class="form-check-label" for="other">
+                    Other
+                  </label>
+
+                </div>
+
+              </div>
+
+              <div id="genderError" class="text-danger small d-none">
+                Please select gender
+              </div>
+
+            </div>
+
+            <!-- Skills -->
+
+            <div class="mb-3">
+
+              <label class="section-title">
+                Skills
+              </label>
+
+              <div class="d-flex gap-4 flex-wrap">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="Skills" value="HTML" id="htmlskill">
+                  <label class="form-check-label" for="htmlskill">
+                    HTML
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="Skills" value="CSS" id="cssskill">
+                  <label class="form-check-label" for="cssskill">
+                    CSS
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="Skills" value="JavaScript" id="jsskill">
+                  <label class="form-check-label" for="jsskill">
+                    JavaScript
+                  </label>
+                </div>
+
+              </div>
+
+              <div id="skillsError" class="text-danger small d-none">
+                Please select at least one skill
+              </div>
+
+            </div>
+
+            <!-- Profile Image -->
+
+            <div class="mb-3">
+
+              <label class="form-label fw-semibold">
+                Profile Image
+              </label>
+              <input type="file"  id="profileImage" class="form-control" accept="image/*">
+              <div class="invalid-feedback">
+                Please select a profile image
+              </div>
+
+            </div>
+
+            <!-- Address -->
+
+            <div class="mb-3">
+
+              <textarea id="address" class="form-control" rows="3" placeholder="Address"></textarea>
+
+              <div class="invalid-feedback">
+                Address must be at least 10 characters
+              </div>
+
+            </div>
+
+            <!-- Submit -->
+
+            <button type="submit" class="btn btn-primary w-100 py-2 submit-btn">
+
+              Register
+
+            </button>
+
+            <div class="text-center mt-3">
+
+              <p class="mb-0">
+
+                Already have an account?
+
+                <a href="/pages/login1.html" class="text-decoration-none fw-semibold text-color">
+                  Login
+                </a>
+
+              </p>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script> -->
+
+<script src="../js/configure.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/user.js"></script>
+<script src="../js/signup.js"></script>
+
+<script>initTheme();</script>
+</body>
+</html>
